@@ -6,6 +6,8 @@ import java.util.ArrayList;
  * @author lau
  */
 public class ArrayListTest {
+
+    public static final String s = "234";
     public void test() {
         ArrayList<String> strings = new ArrayList<>();
         strings.add("123");
