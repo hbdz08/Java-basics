@@ -8,7 +8,7 @@ public class LongString {
         if (s.isEmpty()) {
             return 0;
         }
-        Set set = new HashSet();
+        Set<Character> set = new HashSet<>();
         int size = 0;
         int rk = -1;
         for (int i = 0; i < s.length(); ++i) {
